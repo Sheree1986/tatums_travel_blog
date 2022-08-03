@@ -8,6 +8,10 @@ header {
     background-image: url("https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=830&q=80");
     background-size: cover;
      color: white;
+     padding: 120, 140,100;
+    margin-bottom: 10px;
+    box-shadow: 10px;
+    text-shadow: 5px;
 }
 a {
     color: lightgreen;
@@ -16,4 +20,18 @@ a {
 /*Adding a comment on link styles*/
 a:hover {
     color: aquamarine;
+}
+img {
+    display: block;
+    height: 20%;
+    border: lightgreen;
+}
+.subheading {
+    border-bottom: black;
+
+}
+article {
+    padding: 120, 140,100;
+    margin-bottom: 10px;
+    box-shadow: 10px;
 }
